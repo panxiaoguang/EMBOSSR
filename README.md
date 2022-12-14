@@ -11,10 +11,11 @@ needle(s1,s2)  # s1,s2 is the subject and pattern sequences respectively
 for example,
 
 ```R
+
 s1<-"GGAAGACAGTGTATTTAATTTAAGGCATAACGGCTGTATCAGTGTGGCTGCAGTCAAAATAGAAACCATTTCTAAAATAG"
 s2<-"CACTGATACTGCCGTGAATC"
 
-needle(s2,s1)
+needle(s2,s1,exe_path='please input your EMBOSS needle path')
 
 $similarity
 [1] "16/80 (20.0%)"
